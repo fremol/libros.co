@@ -1,0 +1,22 @@
+2019-07-07T23:53:52+00:00 CRITICAL syntax error, unexpected '<' in /Applications/MAMP/htdocs/TiendaVirtual/wp-content/themes/storefront/inc/storefront-template-functions.php on line 148
+
+2019-07-07T23:56:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /Applications/MAMP/htdocs/TiendaVirtual/wp-content/themes/storefront/footer.php on line 33 and at least 1 expected in /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/plugin.php:428
+Stack trace:
+#0 /Applications/MAMP/htdocs/TiendaVirtual/wp-content/themes/storefront/footer.php(33): do_action()
+#1 /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/template.php(722): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/template.php(671): load_template('/Applications/M...', true)
+#3 /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/general-template.php(76): locate_template(Array, true)
+#4 /Applications/MAMP/htdocs/TiendaVirtual/wp-content/themes/storefront/template-fullwidth.php(37): get_footer()
+#5 /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/template-loader.php(78): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/TiendaVirtual/wp-blog-header.php(19): require_once('/Ap in /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/plugin.php on line 428
+
+2019-07-07T23:56:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /Applications/MAMP/htdocs/TiendaVirtual/wp-content/themes/storefront/footer.php on line 33 and at least 1 expected in /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/plugin.php:428
+Stack trace:
+#0 /Applications/MAMP/htdocs/TiendaVirtual/wp-content/themes/storefront/footer.php(33): do_action()
+#1 /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/template.php(722): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/template.php(671): load_template('/Applications/M...', true)
+#3 /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/general-template.php(76): locate_template(Array, true)
+#4 /Applications/MAMP/htdocs/TiendaVirtual/wp-content/themes/storefront/template-fullwidth.php(37): get_footer()
+#5 /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/template-loader.php(78): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/TiendaVirtual/wp-blog-header.php(19): require_once('/Ap in /Applications/MAMP/htdocs/TiendaVirtual/wp-includes/plugin.php on line 428
+
